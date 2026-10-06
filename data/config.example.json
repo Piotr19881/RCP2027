@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "mode": "offline",
+  "language": "pl",
+  "wifi_ssid": "",
+  "wifi_password": "",
+  "timezone_offset_minutes": 60,
+  "apps_script_url": "",
+  "api_token": "",
+  "employees_sheet_url": "",
+  "attendance_sheet_url": "",
+  "logs_sheet_url": "",
+  "camera_enabled": false
+}

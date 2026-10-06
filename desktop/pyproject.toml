@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rcp2027-desktop"
+version = "0.1.0"
+description = "Desktop companion application for the RCP2027 time recorder"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.7,<7",
+]
+
+[project.scripts]
+rcp2027 = "rcp2027_app.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
